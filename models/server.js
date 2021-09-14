@@ -17,7 +17,7 @@ class Server {
   }
 
   routes() {
-    this.app.use("/api/routes", router);
+    this.app.use("/api/usuarios", router);
   }
 
   listen() {
